@@ -1,0 +1,9 @@
+.Cards {
+    margin: 3rem 5rem 0 calc(5rem + 150px);
+    width: 100%;
+    display: grid;
+    gap: 6rem 4rem;
+    grid-template-columns: 1fr 1fr;
+    align-items: flex-start;
+    justify-content: space-between;
+}

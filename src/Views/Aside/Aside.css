@@ -1,0 +1,35 @@
+:root {
+    --primary-color: #C4C4C4;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+}
+
+.aside {
+    position: fixed;
+    float: left;
+    background: var(--primary-color);
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: right;
+}
+
+.aside img {
+    margin: 1rem;
+}
+
+a {
+    margin: 1rem;
+    text-decoration: none;
+    color:  #f4f4f4;
+    transition: all .5s;
+    font-size: 20px;
+}
+
+a:hover {
+    color: #fff;
+    translate: -20px;
+    transition: all .5s;
+}

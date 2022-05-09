@@ -1,0 +1,302 @@
+{
+    "0x5b9ba1bf76ec0ecf56af70e918c95debb1811fa9": {
+        "tokens": {
+            "USDC": -9.094947017729282e-12,
+            "aAvaUSDC": -18872.614008,
+            "variableDebtAvaWAVAX": -195,
+            "MIM": 1.8189894035458565e-12,
+            "JLP": -0.00039944954642123776,
+            "imxC": -2808.0260673677453,
+            "USDC.e": 0,
+            "qiUSDCn": -2098470.0671401797,
+            "YUSD": 0,
+            "YETI": 1.1368683772161603e-13,
+            "PGL": -5.280927825691667e-21,
+            "UST": 0,
+            "JOE": -0.7685883708433773,
+            "WAVAX": -0.28042250559539145,
+            "WETH.e": 1.1102230246251565e-16,
+            "qiAVAX": -2.6213372,
+            "WBTC.e": 0,
+            "sAVAX": -0.21777646138721163,
+            "AvaxNFTClaim.com": -1,
+            "qiBTC": -0.78309935
+        },
+        "name": "wallet",
+        "category": "wallet"
+    },
+    "0x279f8940ca2a44c35ca3edf7d28945254d0f0ae6": {
+        "tokens": {
+            "USDC": 143961.19
+        },
+        "name": "benqi",
+        "category": "lending deposit"
+    },
+    "0x625e7708f30ca75bfd92586e17077590c60eb4cd": {
+        "tokens": {
+            "USDC": -22808.088008
+        },
+        "name": "avve",
+        "category": "lending deposit"
+    },
+    "0x0000000000000000000000000000000000000000": {
+        "tokens": {
+            "aAvaUSDC": 22851.352799,
+            "variableDebtAvaWAVAX": 195,
+            "JLP": 1630.2274914263346,
+            "imxC": 3972.6279668575185,
+            "YUSD": 69000,
+            "PGL": 0.001022462596938595,
+            "WETH.e": -0.7441378000590477,
+            "UST": 2500
+        },
+        "name": "nullAddress",
+        "category": "mint"
+    },
+    "0xf4003f4efbe8691b60249e6afbd307abe7758adb": {
+        "tokens": {
+            "USDC": -46807.297807999996
+        },
+        "name": "avaxUsdcJLP",
+        "category": "lp"
+    },
+    "0x781655d802670bba3c89aebaaea59d3182fd755d": {
+        "tokens": {
+            "MIM": -9760.115566507053,
+            "JLP": -800
+        },
+        "name": "avaxMimJLP",
+        "category": "lp"
+    },
+    "0xd04b43a8e016ead5c95971e428bffe5a32cfad3c": {
+        "tokens": {
+            "JLP": -830.22342455
+        },
+        "name": "farmJLP",
+        "category": "staking"
+    },
+    "0x0c31e9364d2139a8976ead3a4259c19b7ed0a41d": {
+        "tokens": {
+            "imxC": -1164.598009534809
+        },
+        "name": "impermaxColateral",
+        "category": "lending deposit"
+    },
+    "0x60ae616a2155ee3d9a68541ba4544862310933d4": {
+        "tokens": {
+            "MIM": 9760.115566507051
+        },
+        "name": "joeSwapRouter",
+        "category": "exchange"
+    },
+    "0xa389f9430876455c36478deea9769b7ca4e3ddb1": {
+        "tokens": {
+            "USDC.e": 0.16905399999996007
+        },
+        "name": "avaxUsdceJLP",
+        "category": "lp"
+    },
+    "0xc05227adce1a291752e90bc989f71c4c534d26d5": {
+        "tokens": {
+            "JLP": -0.000903884
+        },
+        "name": "joeStaking",
+        "category": "staking"
+    },
+    "0xb715808a78f6041e46d61cb123c9b4a27056ae9c": {
+        "tokens": {
+            "USDC": -72839.40984099999,
+            "qiUSDCn": 3637429.73421773
+        },
+        "name": "benqiUSDMinter",
+        "category": "exchange"
+    },
+    "0xb775cb337cf223708ef053a110b56e4dabb78132": {
+        "tokens": {
+            "USDC": 19.59173500000452
+        },
+        "name": "yetiUSDCVault",
+        "category": "staking"
+    },
+    "0x9ef73eacae3b4143ca8a637a16f178f4bdce65a0": {
+        "tokens": {
+            "JLP": -0.00276354278811414
+        },
+        "name": "yetiJLPVault",
+        "category": "lending deposit"
+    },
+    "0x000000000bcd46cdd5a6e92c885b34ceac6d2ff4": {
+        "tokens": {
+            "YETI": 720.085589884482
+        },
+        "name": "yetiIssuer",
+        "category": "rewards"
+    },
+    "0xfffffffffff5d3627294fec5081ce5c5d7fa6451": {
+        "tokens": {
+            "YUSD": -69000,
+            "WAVAX": 0.28042250559539145,
+            "WETH.e": 0.040727138917638274
+        },
+        "name": "yetiStabilityPool",
+        "category": "staking"
+    },
+    "0xee2a27b7c3165a5e2a3feb113a77b26b46db0bae": {
+        "tokens": {
+            "imxC": -0.003889953701743133
+        },
+        "name": "impermaxUSDCAVAXColateral",
+        "category": "lending deposit"
+    },
+    "0x3039c26f9126833baca8edbf61c761cd909f461f": {
+        "tokens": {
+            "USDC.e": 10110.162133
+        },
+        "name": "impermaxRouter",
+        "category": "lending borrow"
+    },
+    "0x0e0100ab771e9288e0aa97e11557e6654c3a9665": {
+        "tokens": {
+            "USDC": -4700,
+            "PGL": -0.000511959687135798
+        },
+        "name": "pangolinAvaxUsdcaLP",
+        "category": "lp"
+    },
+    "0xe54ca86531e17ef3616d22ca28b0d458b6c89106": {
+        "tokens": {
+            "USDC": 4699.987109,
+            "UST": 0.008345
+        },
+        "name": "pangolinRouter",
+        "category": "exchange"
+    },
+    "0x3c0ecf5f430bbe6b16a8911cb25d898ef20805cf": {
+        "tokens": {
+            "USDC": -2013.321686999999,
+            "UST": 4660.052328,
+            "PGL": -1.29882327e-9
+        },
+        "name": "pangolinUsdcUstLP",
+        "category": "lp"
+    },
+    "0xdeabb6e80141f5e557ecbdd7e9580f37d7bbc371": {
+        "tokens": {
+            "UST": -4660.060673,
+            "PGL": -9.89061026e-10
+        }
+    },
+    "0xc6e68d77d0f4fa925a1cf2611dab6b10900eaf2b": {
+        "tokens": {
+            "PGL": -0.000510497
+        },
+        "name": "farmPangolinAvaxUstLp",
+        "category": "staking"
+    },
+    "0x69c1c44e8742b66d892294a7eeb9aac51891b0eb": {
+        "tokens": {
+            "PGL": -3.621918501e-9
+        },
+        "name": "farmPangolinUsdcUstFarm",
+        "category": "staking"
+    },
+    "0xbd918ed441767fe7924e99f6a0e0b568ac1970d9": {
+        "tokens": {
+            "USDC.e": -10110.331187
+        },
+        "name": "pangolinAvaxUsdceLP",
+        "category": "lp"
+    },
+    "0xcc3ee7ccb14aea851850f46cbbe4d82f5d74c20f": {
+        "tokens": {
+            "JOE": 50.41716933330087
+        },
+        "name": "yetiSJoeVault",
+        "category": "reward"
+    },
+    "0x88888888847df39cf1dfe1a05c904b4e603c9416": {
+        "tokens": {
+            "YETI": -720.0855898844823
+        },
+        "name": "yetiStaking",
+        "category": "staking"
+    },
+    "0x67926d973cd8ee876ad210faaf7dffa99e414acf": {
+        "tokens": {
+            "JOE": -49.648580962457494
+        },
+        "name": "joeUsdcJLP",
+        "category": "lp"
+    },
+    "0x9a6bceceec3fbe2facc977e57fbe2508f70dbcd9": {
+        "tokens": {
+            "qiUSDCn": -1538959.66707755
+        },
+        "name": "yetiQuiUsdcnVault",
+        "category": "lending deposit"
+    },
+    "0xad69de0ce8ab50b729d3f798d7bc9ac7b4e79267": {
+        "tokens": {
+            "aAvaUSDC": -3978.738791
+        },
+        "name": "yetiAaveUSDCVault",
+        "category": "lending deposit"
+    },
+    "0xeea35ef62adbc3bbd4ef137e7cfaba612248f784": {
+        "tokens": {
+            "qiAVAX": 2.6213372
+        },
+        "name": "yetiQiavaxVault",
+        "category": "lending deposit"
+    },
+    "0x71eba7ab57a1a03c54878338aa5324056c930605": {
+        "tokens": {
+            "WBTC.e": 0.01579685
+        },
+        "name": "yetiWbtcVault",
+        "category": "reward"
+    },
+    "0xcb4b0937904698d6eddadb2fd3b5fcce74130c37": {
+        "tokens": {
+            "sAVAX": 0.21777646138721163
+        },
+        "name": "yetiSavaxVault",
+        "category": "reward"
+    },
+    "0x2a8a315e82f85d1f0658c5d66a452bbdd9356783": {
+        "tokens": {
+            "USDC": -2000
+        },
+        "name": "joeUsdcUsdcePool",
+        "category": "exchange"
+    },
+    "0x199fb78019a08af2cb6a078409d0c8233eba8a0c": {
+        "tokens": {
+            "WETH.e": 0.7034106611414094
+        },
+        "name": "joeUsdceWethePool",
+        "category": "exchange"
+    },
+    "0x9f8c163cba728e99993abe7495f06c0a3c8ac8b9": {
+        "tokens": {
+            "AvaxNFTClaim.com": 1
+        }
+    },
+    "0xe194c4c5ac32a3c9ffdb358d9bfd523a0b6d1568": {
+        "tokens": {
+            "WBTC.e": -0.01579685,
+            "qiBTC": 0.78309935
+        }
+    },
+    "0x78aada987f7f1e190753bc290c02034faa894047": {
+        "tokens": {
+            "imxC": -1.262453067e-9
+        }
+    },
+    "0xe1f75e2e74ba938abd6c3be18ccc5c7f71925c4b": {
+        "tokens": {
+            "UST": -2500,
+            "USDC": 2487.3485
+        }
+    }
+}

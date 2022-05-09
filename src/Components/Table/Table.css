@@ -1,0 +1,21 @@
+.Table {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.TableContent {
+    text-align: center;
+    padding: 1rem;
+    width: 1000px;
+    height: 600px;
+    background: #f1f1f1;
+    border-radius: 15px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.header th {
+    font-weight: normal;
+    font-size: large;
+}
