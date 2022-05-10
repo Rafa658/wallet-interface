@@ -3,13 +3,9 @@ import Card from '../../Components/Card/Card'
 
 import './Cards.css'
 
-import cities from "../../Data/cities";
-import prices from '../../Data/avax-balances.json'
+import balances from '../../Data/avax-balances.json'
 
-const protocols = Object.keys(prices)
-const info = Object.values(prices)
-
-console.log(protocols.map(proto => Object.values(prices[proto]["tokens"])));
+const protocols = Object.keys(balances)
 
 const Cards = () => {
 
@@ -18,9 +14,9 @@ const Cards = () => {
             {protocols.map(proto => {
                 return (
                     <Card
-                        title={prices[proto]["name"]}
+                        title={balances[proto]["name"]}
                         address={proto}
-                        data={prices[proto]["tokens"]}
+                        data={balances[proto]["tokens"]}
                         key={proto}
                     />
                 )

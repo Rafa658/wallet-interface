@@ -1,8 +1,10 @@
 import React, { useState } from "react";
-import { RiArrowDownSLine, RiArrowUpSLine } from "react-icons/ri";
+import { RiArrowDownSLine } from "react-icons/ri";
 import { Collapse } from "react-bootstrap";
 
 import "./Card.css";
+
+import prices from "../../Data/priced-assets.json"
 
 const Card = (props) => {
   const data = props.data || [];
@@ -21,13 +23,16 @@ const Card = (props) => {
           onClick={() => setToggle(!isToggled)}
           aria-controls="collapse"
         />
-        {/* <p>{props.address}</p> */}
       </div>
       <Collapse in={isToggled}>
         <div className="list" id="collapse">
           {Object.keys(data).map(d => (
-            <div className="list-item ml1" key={d}>
-              {d}: {data[d]}
+            <div>
+              <div className="list-item ml1" key={d}>
+                <span className="token-symbol">{d}</span> {data[d]}
+                <p className="pricing-info">Preço:</p>
+                <p className="pricing-info">Quantidade: </p>
+              </div>
             </div>
           ))}
         </div>

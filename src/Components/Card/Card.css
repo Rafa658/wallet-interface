@@ -16,6 +16,10 @@
     justify-content: center;
 }
 
+.pricing-info {
+    margin: 0;
+}
+
 /* Style */
 
 .wrapper {
@@ -72,5 +76,5 @@
 }
 
 .list-item {
-    line-height: 2rem;
+    margin-bottom: 1rem;
 }
