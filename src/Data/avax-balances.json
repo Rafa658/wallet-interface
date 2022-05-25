@@ -1,14 +1,14 @@
 {
     "0x5b9ba1bf76ec0ecf56af70e918c95debb1811fa9": {
         "tokens": {
-            "USDC": -9.094947017729282e-12,
-            "aAvaUSDC": -18872.614008,
+            "USDC": -2656.346156000009,
+            "aAvaUSDC": -14896.012842,
             "variableDebtAvaWAVAX": -195,
             "MIM": 1.8189894035458565e-12,
             "JLP": -0.00039944954642123776,
             "imxC": -2808.0260673677453,
             "USDC.e": 0,
-            "qiUSDCn": -2098470.0671401797,
+            "qiUSDCn": -1998470.0671401797,
             "YUSD": 0,
             "YETI": 1.1368683772161603e-13,
             "PGL": -5.280927825691667e-21,
@@ -55,7 +55,7 @@
     },
     "0xf4003f4efbe8691b60249e6afbd307abe7758adb": {
         "tokens": {
-            "USDC": -46807.297807999996
+            "USDC": -44150.951651999996
         },
         "name": "avaxUsdcJLP",
         "category": "lp"
@@ -177,14 +177,16 @@
             "UST": 4660.052328,
             "PGL": -1.29882327e-9
         },
-        "name": "pangolinUsdcUstLP",
+        "name": "pangolinUsdcAxUstLP",
         "category": "lp"
     },
     "0xdeabb6e80141f5e557ecbdd7e9580f37d7bbc371": {
         "tokens": {
             "UST": -4660.060673,
             "PGL": -9.89061026e-10
-        }
+        },
+        "name": "pangolinAvaxUstLP",
+        "category": "lp"
     },
     "0xc6e68d77d0f4fa925a1cf2611dab6b10900eaf2b": {
         "tokens": {
@@ -230,14 +232,14 @@
     },
     "0x9a6bceceec3fbe2facc977e57fbe2508f70dbcd9": {
         "tokens": {
-            "qiUSDCn": -1538959.66707755
+            "qiUSDCn": -1638959.66707755
         },
         "name": "yetiQuiUsdcnVault",
         "category": "lending deposit"
     },
     "0xad69de0ce8ab50b729d3f798d7bc9ac7b4e79267": {
         "tokens": {
-            "aAvaUSDC": -3978.738791
+            "aAvaUSDC": -7955.339957
         },
         "name": "yetiAaveUSDCVault",
         "category": "lending deposit"
@@ -280,18 +282,24 @@
     "0x9f8c163cba728e99993abe7495f06c0a3c8ac8b9": {
         "tokens": {
             "AvaxNFTClaim.com": 1
-        }
+        },
+        "name": "binanceRewards",
+        "category": "rewards"
     },
     "0xe194c4c5ac32a3c9ffdb358d9bfd523a0b6d1568": {
         "tokens": {
             "WBTC.e": -0.01579685,
             "qiBTC": 0.78309935
-        }
+        },
+        "name": "benqiBtcVault",
+        "category": "deposit"
     },
     "0x78aada987f7f1e190753bc290c02034faa894047": {
         "tokens": {
             "imxC": -1.262453067e-9
-        }
+        },
+        "name": "impermaxColateralUsdcUst",
+        "category": "lending deposit"
     },
     "0xe1f75e2e74ba938abd6c3be18ccc5c7f71925c4b": {
         "tokens": {

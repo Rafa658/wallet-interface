@@ -5,11 +5,20 @@ import { Collapse } from "react-bootstrap";
 import "./Card.css";
 
 import prices from "../../Data/priced-assets.json"
+import balances from "../../Data/avax-balances.json"
+
+// if(!prices.hasOwnProperty(token) || !prices[token].hasOwnProperty("prices")) {
+//   return 0
+// }
+// else if (prices[token]["symbol"] === d) {
+//   return Object.values(prices[token]["prices"])[0] || 0
+// }
 
 const Card = (props) => {
   const data = props.data || [];
 
   var [isToggled, setToggle] = useState(false);
+  var [symbol, setSymbol] = useState("")
 
   return (
     <div className="wrapper">
@@ -30,7 +39,23 @@ const Card = (props) => {
             <div>
               <div className="list-item ml1" key={d}>
                 <span className="token-symbol">{d}</span> {data[d]}
-                <p className="pricing-info">Preço:</p>
+                <div className="price-box">
+                  <p className="pricing-info">
+                    Preços:
+                  </p>
+                  <div className="prices-protocols">
+                    {
+                      Object.keys(prices).map(token => {
+                        if (!prices.hasOwnProperty(token) || !prices[token].hasOwnProperty("prices")) {
+                          return ''
+                        }
+                        else if (prices[token]["symbol"] === d) {
+                          return <div className="inline-prices">${Object.values(prices[token]["prices"])[0]} <span className="inline-address">{token}</span></div>
+                        }
+                      })
+                    }
+                  </div>
+                </div>
                 <p className="pricing-info">Quantidade: </p>
               </div>
             </div>

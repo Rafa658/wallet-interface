@@ -75,6 +75,26 @@
     /* border-radius: 0 0 15px 15px; */
 }
 
+.token-symbol {
+    line-height: 2rem;
+}
+
 .list-item {
     margin-bottom: 1rem;
+}
+
+.price-box{
+    display: flex;
+}
+
+.prices-protocols {
+    margin-left: 1rem;
+}
+
+.inline-prices {
+    line-height: 1.5rem;
+}
+
+.inline-address {
+    font-size: small;
 }

@@ -14,9 +14,9 @@ const Cards = () => {
             {protocols.map(proto => {
                 return (
                     <Card
-                        title={balances[proto]["name"]}
-                        address={proto}
-                        data={balances[proto]["tokens"]}
+                        title={balances[proto]["name"]} // identificaçao do protocolo
+                        address={proto} // endereço do protocolo
+                        data={balances[proto]["tokens"]}    // tokens do protocolo
                         key={proto}
                     />
                 )
